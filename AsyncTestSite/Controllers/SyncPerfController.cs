@@ -15,7 +15,7 @@ namespace AsyncTestSite.Controllers
 
             var r = 
                 new WebClient()
-                    .DownloadString("http://ma.youvisio.com/api/version?os=android");
+                    .DownloadString("http://ma.youvisio.com/api/fake");
 
             sw.Stop();
             r += " ms:" + sw.ElapsedMilliseconds;
